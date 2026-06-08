@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B081F0A1-54ED-4BA6-A30E-71828634CAA4}|UI\\UI.csproj|c:\\users\\juan\\desktop\\general\\programaci\u00F3n\\c#\\2.practicas\\administracionempleados\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B081F0A1-54ED-4BA6-A30E-71828634CAA4}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T22:26:11.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
