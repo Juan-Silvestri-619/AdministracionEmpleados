@@ -34,3 +34,10 @@ CREATE TABLE DetalleCompra(
 	FOREIGN KEY (idCabecera) REFERENCES CabeceraCompra(id),
 	FOREIGN KEY(idProducto) REFERENCES Producto(id)
 );
+
+ALTER TABLE Producto
+ADD
+    stockActual INT NOT NULL DEFAULT 0,
+    stockMinimo INT NOT NULL DEFAULT 0;
+
+SELECT * FROM Producto
