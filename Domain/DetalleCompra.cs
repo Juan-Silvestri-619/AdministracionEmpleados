@@ -14,6 +14,10 @@ namespace Domain
         public Producto Producto { get; private set; }
         public int Cantidad { get; private set; }
         public decimal PrecioUnitario { get; private set; }
+        public decimal Subtotal
+        {
+            get { return PrecioUnitario * Cantidad; }
+        }
         #endregion
 
         #region Constructor

@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="BLL/BLL.csproj" />
-  <Project Path="DAL/DAL.csproj" />
-  <Project Path="Domain/Domain.csproj" />
-  <Project Path="UI/UI.csproj" />
+  <Project Path="BLL/BLL.csproj" Id="be9c2cb3-9922-48be-8f6b-137685474218" />
+  <Project Path="DAL/DAL.csproj" Id="29760412-3e3f-4157-a3ef-7b397c3df6d9" />
+  <Project Path="Domain/Domain.csproj" Id="772e057b-941e-416b-bc1e-44911756a978" />
+  <Project Path="UI/UI.csproj" Id="b081f0a1-54ed-4ba6-a30e-71828634caa4" />
 </Solution>

@@ -12,6 +12,7 @@ namespace Domain
         public int Id { get; private set; }
         public DateTime Fecha { get; private set; }
         public Proveedor Proveedor { get; private set; }
+        public decimal Total { get { return Detalles.Sum(d => d.Subtotal); } }
 
         public List<DetalleCompra> Detalles { get; private set;}
         #endregion

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B081F0A1-54ED-4BA6-A30E-71828634CAA4}|UI\\UI.csproj|c:\\users\\juan\\desktop\\general\\programaci\u00F3n\\c#\\2.practicas\\administracionempleados\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081F0A1-54ED-4BA6-A30E-71828634CAA4}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|c:\\users\\juan\\desktop\\general\\programaci\u00F3n\\c#\\2.practicas\\administracionempleados\\domain\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|solutionrelative:domain\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|c:\\users\\juan\\desktop\\general\\programaci\u00F3n\\c#\\2.practicas\\administracionempleados\\domain\\cabeceracompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|solutionrelative:domain\\cabeceracompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|c:\\users\\juan\\desktop\\general\\programaci\u00F3n\\c#\\2.practicas\\administracionempleados\\domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|solutionrelative:domain\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|c:\\users\\juan\\desktop\\general\\programaci\u00F3n\\c#\\2.practicas\\administracionempleados\\domain\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{772E057B-941E-416B-BC1E-44911756A978}|Domain\\Domain.csproj|solutionrelative:domain\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\DetalleCompra.cs",
+              "RelativeDocumentMoniker": "Domain\\DetalleCompra.cs",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\DetalleCompra.cs",
+              "RelativeToolTip": "Domain\\DetalleCompra.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T22:26:11.305Z",
+              "WhenOpened": "2026-06-10T19:33:21.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CabeceraCompra.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\CabeceraCompra.cs",
+              "RelativeDocumentMoniker": "Domain\\CabeceraCompra.cs",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\CabeceraCompra.cs",
+              "RelativeToolTip": "Domain\\CabeceraCompra.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T19:31:30.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Domain\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\Proveedor.cs",
+              "RelativeToolTip": "Domain\\Proveedor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:47:02.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\Producto.cs",
+              "RelativeDocumentMoniker": "Domain\\Producto.cs",
+              "ToolTip": "C:\\Users\\Juan\\Desktop\\General\\Programaci\u00F3n\\C#\\2.Practicas\\AdministracionEmpleados\\Domain\\Producto.cs",
+              "RelativeToolTip": "Domain\\Producto.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:32:37.799Z",
               "EditorCaption": ""
             }
           ]
