@@ -28,5 +28,15 @@ namespace Domain
             Detalles = new List<DetalleCompra>();
         }
         #endregion
+        #region Métodos
+        public void AgregarDetalle(DetalleCompra detalle)
+        {
+            if (detalle == null)
+                throw new Exception("Detalle inválido");
+
+            Detalles.Add(detalle);
+        }
+
+        #endregion
     }
 }

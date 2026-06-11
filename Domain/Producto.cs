@@ -23,6 +23,8 @@ namespace Domain
                 throw new Exception("El nombre es obligatorio");
             if (precio <= 0)
                 throw new Exception("El precio debe ser mayor a cero");
+            if (stockMinimo < 0)
+                throw new Exception("Stock mínimo inválido");
 
             Nombre = nombre;
             Precio = precio;
@@ -60,6 +62,13 @@ namespace Domain
         public bool DebeReponer()
         {
             return StockActual <= StockMinimo;
+        }
+        public void ModificarPrecio(decimal nuevoPrecio)
+        {
+            if (nuevoPrecio <= 0)
+                throw new Exception("Nuevo precio inválido");
+            
+            Precio = nuevoPrecio;
         }
         #endregion
     }

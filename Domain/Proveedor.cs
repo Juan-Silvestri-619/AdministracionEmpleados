@@ -14,7 +14,6 @@ namespace Domain
         public string Correo { get; private set; }
         public string Telefono { get; private set; }
 
-        public List<CabeceraCompra> Compras { get; private set; }
         #endregion
 
         #region Constructor
@@ -28,10 +27,8 @@ namespace Domain
             Nombre = nombre;
             Correo = correo;
             Telefono = telefono;
-            Compras = new List<CabeceraCompra>();
         }
         #endregion
-
 
     }
 }
