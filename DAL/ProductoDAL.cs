@@ -11,7 +11,11 @@ namespace DAL
 {
     public class ProductoDAL
     {
-        private string _cadenaConexion = ConfigurationManager.ConnectionStrings["SqlServer"].ConnectionString;
+        private string _cadenaConexion;
+        public ProductoDAL() 
+        {
+            _cadenaConexion = ConfigurationManager.ConnectionStrings["SqlServer"].ConnectionString;
+        }
 
         //Método que nos permite obtener la lista de productos de la base de datos
         public List<Producto> ListarProductos()
