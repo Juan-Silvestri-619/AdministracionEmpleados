@@ -17,16 +17,20 @@ namespace Domain
         #endregion
 
         #region Constructor
-        public Producto(int id, string nombre, decimal precio, int stockActual, int stockMinimo)
+        private static void Validar(string nombre, decimal precio, int stockActual, int stockMinimo)
         {
             if (string.IsNullOrWhiteSpace(nombre))
                 throw new Exception("El nombre es obligatorio");
             if (precio <= 0)
                 throw new Exception("El precio debe ser mayor a cero");
-            if (stockActual <= 0)
+            if (stockActual < 0)
                 throw new Exception("Stock actual inválido");
             if (stockMinimo < 0)
                 throw new Exception("Stock mínimo inválido");
+        }
+        public Producto(int id, string nombre, decimal precio, int stockActual, int stockMinimo)
+        {
+            Validar(nombre, precio, stockActual, stockMinimo);
 
             Id = id;
             Nombre = nombre;
@@ -36,14 +40,7 @@ namespace Domain
         }
         public Producto(string nombre, decimal precio, int stockActual, int stockMinimo)
         {
-            if (string.IsNullOrWhiteSpace(nombre))
-                throw new Exception("El nombre es obligatorio");
-            if (precio <= 0)
-                throw new Exception("El precio debe ser mayor a cero");
-            if (stockActual <= 0)
-                throw new Exception("Stock actual inválido");
-            if (stockMinimo < 0)
-                throw new Exception("Stock mínimo inválido");
+            Validar(nombre, precio, stockActual, stockMinimo);
 
             Nombre = nombre;
             Precio = precio;
