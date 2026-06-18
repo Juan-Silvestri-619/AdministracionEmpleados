@@ -28,9 +28,6 @@ namespace BLL
         }
         public void AgregarProducto(Producto producto)
         {
-            if (_productoDal.BuscarId(producto.Id) != null)
-                throw new Exception("El producto ya existe");
-
             _productoDal.AgregarProducto(producto);
         }
         public void ModificarProducto(Producto producto)
