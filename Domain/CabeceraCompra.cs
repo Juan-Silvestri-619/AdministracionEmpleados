@@ -20,15 +20,28 @@ namespace Domain
         #region Constructor
         public CabeceraCompra(DateTime fecha, Proveedor proveedor)
         {
-            if (proveedor == null)
-                throw new Exception("Debe especificar un proveedor");
+            Validar(proveedor);
 
+            Fecha = fecha;
+            Proveedor = proveedor;
+            Detalles = new List<DetalleCompra>();
+        }
+        public CabeceraCompra(int id, DateTime fecha, Proveedor proveedor)
+        {
+            Validar(proveedor);
+
+            Id = id;
             Fecha = fecha;
             Proveedor = proveedor;
             Detalles = new List<DetalleCompra>();
         }
         #endregion
         #region Métodos
+        private void Validar(Proveedor proveedor)
+        {
+            if (proveedor == null)
+                throw new Exception("Debe especificar un proveedor");
+        }
         public void AgregarDetalle(DetalleCompra detalle)
         {
             if (detalle == null)
